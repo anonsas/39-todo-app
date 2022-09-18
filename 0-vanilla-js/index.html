@@ -9,6 +9,26 @@
     <link rel="stylesheet" href="./style.css" />
   </head>
   <body>
+    <main class="todo-app">
+      <div class="form-container">
+        <h2>Todo app</h2>
+        <form class="form">
+          <input
+            type="text"
+            id="todo-input"
+            placeholder="Ex. Hit the gym"
+            autocomplete="off"
+          />
+          <button type="submit" id="submit-btn">Add</button>
+        </form>
+      </div>
+
+      <div class="todo-container">
+        <ul class="todo-list"></ul>
+        <button type="button" class="clear-list">Clear list</button>
+      </div>
+    </main>
+
     <script defer src="./app.js"></script>
   </body>
 </html>
